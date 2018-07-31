@@ -5,7 +5,7 @@
     
     height: 75%;
     width: 100%;
-    background-color: $color-gray-one;
+    background-color: $color-gray-dark;
     text-align: left;
     
     clip-path: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
@@ -30,14 +30,14 @@
         font-size: 22px;
         line-height: 25px;
         color: $color-yellow-one;
-        font-family: 'Roboto Condensed';
+        font-family: $font-roboto;
     }
     
     &__amount {
         font-size: 100px;
         font-weight: bold;
         line-height: 105px;
-        font-family: 'Roboto Condensed';
+        font-family: $font-roboto;
         color: white;
     }
 }
